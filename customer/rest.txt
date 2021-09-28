@@ -1,0 +1,17 @@
+Example REST API calls:
+
+Return all current textbook products:
+json: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=json&action=products
+xml: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=xml&action=products
+
+Search by price range between 10 and 100:
+json: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=json&action=price&price_low=10&price_high=100
+xml: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=xml&action=price&price_low=10&price_high=100
+
+Search by title:
+json: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=json&action=title&title=pro-html5-programming
+xml: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=xml&action=title&title=pro-html5-programming
+
+Search by associated course id:
+json: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=json&action=course&course=cs544
+xml: http://localhost/CS602_Term_Project_Kennedy/customer/rest.php?format=xml&action=course&course=cs544
